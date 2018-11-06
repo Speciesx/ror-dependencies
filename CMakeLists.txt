@@ -118,7 +118,7 @@ if (BUILD_OPENAL)
     ExternalProject_Add(
             openal
             GIT_REPOSITORY https://github.com/kcat/openal-soft.git
-            GIT_TAG openal-soft-1.18.2 #TODO update when new version is released
+            GIT_TAG openal-soft-1.19.1
             GIT_SHALLOW TRUE
             GIT_PROGRESS TRUE
             CMAKE_ARGS
