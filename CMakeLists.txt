@@ -184,7 +184,7 @@ endif ()
 
 if (BUILD_OGRE)
 
-    set(OGRE_VERSION v1.11.2)
+    set(OGRE_VERSION v1.11.3)
 
     # First build the required dependencies for Ogre itself. They are provided in a dedicated repository.
     ExternalProject_Add(
